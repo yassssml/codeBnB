@@ -1,0 +1,29 @@
+{
+    "name": "projeto",
+    "version": "1.0.0",
+    "description": "Sistema web para mostrar tudo que eu sei.",
+    "private": true,
+    "type": "module",
+    "author": {
+        "name": "Yasmin Oliveira"
+    },
+    "license": "MIT",
+    "scripts": {
+        "bd": "cls && node anexos/bd.js",
+        "dev": "cls && next dev",
+        "entrega": "cls && node anexos/entrega.js"
+    },
+    "dependencies": {
+        "@prisma/client": "6.19.3",
+        "antd": "6.6.8",
+        "bcryptjs": "3.0.3",
+        "jsonwebtoken": "9.0.3",
+        "next": "16.4.3",
+        "react": "19.3.1",
+        "react-dom": "19.3.1"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "2.6.3",
+        "prisma": "6.19.3"
+    }
+}
